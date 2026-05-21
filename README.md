@@ -22,8 +22,16 @@
 
 当前发布包为：
 
-- `campus-auth-guardian_1.0.0-r4_all.ipk`
-- `luci-app-campus-auth-guardian_1.0.0-r4_all.ipk`
+- [`campus-auth-guardian_1.0.0-r4_all.ipk`](releases/v1.0.0-r4/campus-auth-guardian_1.0.0-r4_all.ipk)
+- [`luci-app-campus-auth-guardian_1.0.0-r4_all.ipk`](releases/v1.0.0-r4/luci-app-campus-auth-guardian_1.0.0-r4_all.ipk)
+- [`SHA256SUMS`](releases/v1.0.0-r4/SHA256SUMS)
+
+校验值：
+
+```text
+1a01a950c935d2f5a12b4578c57734bcce22c9661cea97c1910d82a50bccad1f  campus-auth-guardian_1.0.0-r4_all.ipk
+9b377541533c2297f59271a33b89343259b563e82b4d99bdd396651cbfacb92a  luci-app-campus-auth-guardian_1.0.0-r4_all.ipk
+```
 
 ## 安装
 
