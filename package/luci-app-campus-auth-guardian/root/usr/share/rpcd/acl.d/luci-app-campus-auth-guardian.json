@@ -1,0 +1,15 @@
+{
+  "luci-app-campus-auth-guardian": {
+    "description": "Grant access to Campus Auth Guardian config",
+    "read": {
+      "uci": [ "campus-auth-guardian" ]
+    },
+    "write": {
+      "uci": [ "campus-auth-guardian" ],
+      "file": {
+        "/usr/bin/campus-auth-guardian.sh": [ "exec" ],
+        "/etc/init.d/campus-auth-guardian": [ "exec" ]
+      }
+    }
+  }
+}

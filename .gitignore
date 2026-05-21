@@ -1,0 +1,13 @@
+.ipk-build/
+dist/
+_check_c/
+_check_l/
+_ipkcheck1/
+_ipkcheck2/
+_verify_c/
+_verify_l/
+_c_control.tar.gz
+_c_data.tar.gz
+_l_control.tar.gz
+_l_data.tar.gz
+
