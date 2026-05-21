@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=campus-auth-guardian
 PKG_VERSION:=1.0.0
-PKG_RELEASE:=1
+PKG_RELEASE:=4
 
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=Codex
@@ -12,13 +12,13 @@ include $(INCLUDE_DIR)/package.mk
 define Package/campus-auth-guardian
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=Campus Auth Guardian backend
-  DEPENDS:=+curl +uclient-fetch
+  TITLE:=校园网认证守护后端
+  DEPENDS:=
   PKGARCH:=all
 endef
 
 define Package/campus-auth-guardian/description
-  Campus portal authentication daemon and helper scripts for ImmortalWrt.
+  用于 ImmortalWrt 的校园网认证守护进程和辅助脚本。
 endef
 
 define Build/Compile

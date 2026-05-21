@@ -1,6 +1,6 @@
 {
   "luci-app-campus-auth-guardian": {
-    "description": "Grant access to Campus Auth Guardian config",
+    "description": "允许访问校园网认证守护配置",
     "read": {
       "uci": [ "campus-auth-guardian" ]
     },
@@ -8,7 +8,10 @@
       "uci": [ "campus-auth-guardian" ],
       "file": {
         "/usr/bin/campus-auth-guardian.sh": [ "exec" ],
-        "/etc/init.d/campus-auth-guardian": [ "exec" ]
+        "/usr/bin/campus-auth-guardian.sh auth": [ "exec" ],
+        "/usr/bin/campus-auth-guardian.sh check": [ "exec" ],
+        "/etc/init.d/campus-auth-guardian": [ "exec" ],
+        "/etc/init.d/campus-auth-guardian restart": [ "exec" ]
       }
     }
   }
