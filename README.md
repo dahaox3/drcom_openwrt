@@ -22,9 +22,9 @@
 
 当前发布包为：
 
-- [`campus-auth-guardian_1.0.0-r4_all.ipk`](releases/v1.0.0-r4/campus-auth-guardian_1.0.0-r4_all.ipk)
-- [`luci-app-campus-auth-guardian_1.0.0-r4_all.ipk`](releases/v1.0.0-r4/luci-app-campus-auth-guardian_1.0.0-r4_all.ipk)
-- [`SHA256SUMS`](releases/v1.0.0-r4/SHA256SUMS)
+- [`campus-auth-guardian_1.0.0-r4_all.ipk`](https://github.com/dahaox3/drcom_openwrt/releases/download/v1.0.0-r4/campus-auth-guardian_1.0.0-r4_all.ipk)
+- [`luci-app-campus-auth-guardian_1.0.0-r4_all.ipk`](https://github.com/dahaox3/drcom_openwrt/releases/download/v1.0.0-r4/luci-app-campus-auth-guardian_1.0.0-r4_all.ipk)
+- [`SHA256SUMS`](https://github.com/dahaox3/drcom_openwrt/releases/download/v1.0.0-r4/SHA256SUMS)
 
 校验值：
 
